@@ -1,0 +1,69 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 80px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: -2px 7px 5px -6px rgba(0, 0, 0, 0.61);
+    color: black;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    overflow-y: hidden;
+  }
+  a{
+    color: black;
+  }
+  .logo {
+    padding: 10px 0 10px 15px;
+    width: 90px;
+  }
+  
+  .user-name {
+    color: var(--dark-green);
+  }
+  
+  /* nav items CSS start*/
+  .nav-items > ul {
+    list-style-type: none;
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .nav-items > ul > li {
+    padding: 10px;
+    color: black;
+    padding-right: 40px;
+  }
+  
+ 
+ 
+ .login-btn {
+    color: var(--light-text-color);
+    border: none;
+    border-radius: 5px;
+    background-color: Transparent;
+    font-size: inherit;
+    font-weight: 700;
+    cursor: pointer;
+    padding-right: 40px;
+  }
+  
+  .nav-items > ul > li .logout-btn:hover,
+  .nav-items > ul > li .login-btn:hover {
+    color: var(--white);
+  }
+  
+  .login-btn-green {
+    color: var(--light-green);
+  }
+  
+  .login-btn-red {
+    color: var(--x-dark-orange);
+  }
